@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".countrylist">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginBottom="25sp"
+        android:gravity="center"
+        android:text="Select an Country"
+        android:fontFamily="@font/figuralregular"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchviewid"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_gravity="right"
+        android:layout_marginBottom="25sp"
+        android:background="@color/purple_200"
+        app:queryHint="Search the name" />
+
+    <ListView
+        android:id="@+id/listviewid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

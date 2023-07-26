@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="80sp"
+        android:layout_marginBottom="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/figuralregular"
+        android:gravity="center"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:text="Basic Calculator"
+                android:onClick="calcFunction"
+                android:textSize="30sp"
+                android:fontFamily="@font/figuralregular"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:text="BMI"
+                android:onClick="bmiEFunction"
+                android:textSize="30sp"
+                android:fontFamily="@font/figuralregular"/>
+
+            <RadioButton
+                android:layout_margin="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="USD to BDT"
+                android:onClick="convertFunction"
+                android:textSize="30sp"
+                android:fontFamily="@font/figuralregular"/>
+
+            <RadioButton
+                android:layout_margin="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Country Information"
+                android:onClick="countryFunction"
+                android:textSize="30sp"
+                android:fontFamily="@font/figuralregular"/>
+
+
+            <RadioButton
+                android:layout_margin="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About Me"
+                android:onClick="aboutmeFuntion"
+                android:textSize="30sp"
+                android:fontFamily="@font/figuralregular"/>
+
+
+
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+</LinearLayout>

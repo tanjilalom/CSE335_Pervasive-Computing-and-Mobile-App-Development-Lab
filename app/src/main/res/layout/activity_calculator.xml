@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="7"
+    tools:context=".calculator">
+
+
+    <TextView
+        android:id="@+id/secondaryTextviewID"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:textSize="35sp"
+        android:gravity="right"
+        android:layout_weight=".70" />
+
+    <TextView
+        android:id="@+id/primaryTextviewId"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1.3"
+        android:gravity="right"
+        android:text="0"
+        android:textSize="50sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/cBtnID"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="C"
+            android:onClick="ClearFunction"
+            android:textSize="40sp" />
+
+
+        <Button
+            android:id="@+id/ceBtnID"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="deleteFunction"
+            android:text="CE"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/rootBtnID"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="rootFunction"
+            android:text="√"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/divBtnID"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="/"
+            android:onClick="operatorFunction"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/sevenBtnID"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="numberFunction"
+            android:text="7"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/eightBtnID"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="numberFunction"
+            android:text="8"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/nineBtnID"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="numberFunction"
+            android:text="9"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/multiBtnID"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="*"
+            android:onClick="operatorFunction"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/fourBtnID"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="numberFunction"
+            android:text="4"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/fiveBtnID"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="numberFunction"
+            android:text="5"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/sixBtnID"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="numberFunction"
+            android:text="6"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/subBtnID"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="-"
+            android:onClick="operatorFunction"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/oneBtnID"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="numberFunction"
+            android:text="1"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/twoBtnID"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="numberFunction"
+
+            android:text="2"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/threeBtnID"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="numberFunction"
+            android:text="3"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/sumtnID"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="+"
+            android:onClick="operatorFunction"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:weightSum="4">
+
+
+        <Button
+            android:id="@+id/zeroBtnID"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="numberFunction"
+            android:text="0"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/resultBtnID"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:onClick="resultFunction"
+            android:text="="
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Database Project</string>
+
+
+    <!-- The BMI Text -->
+    <string name="bmiTitle">BMI Calculator</string>
+    <string name="bmiHeight">My Height is ...</string>
+    <string name="bmiWeight">My Weight is ...</string>
+    <string name="bmiBtnTitle">My BMI is ...</string>
+
+    <!-- Country Name -->
+    <string-array name="countryname">
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Malaysia</item>
+        <item>Dubai</item>
+        <item>Japan</item>
+    </string-array>
+
+
+    <string name="info1">Assalamualaikum.\nThis is Tanjil Alom. My ID is 201-15-3079. This is my project for Android Development Course.</string>
+
+
+    <string name="bd">Bangladesh, to the east of India on the Bay of Bengal, is a South Asian country marked by lush greenery and many waterways.
+        Its Padma (Ganges), Meghna and Jamuna rivers create fertile plains, and travel by boat is common.
+        On the southern coast, the Sundarbans, an enormous mangrove forest shared with Eastern India, is home to the royal Bengal tiger.</string>
+
+    <string name="malaysia">Malaysia is a Southeast Asian country occupying parts of the Malay Peninsula and the island of Borneo.
+        It\'s known for its beaches, rainforests and mix of Malay, Chinese, Indian and European cultural influences.
+        The capital, Kuala Lumpur, is home to colonial buildings, busy shopping districts such as Bukit Bintang and skyscrapers such as the iconic, 451m-tall Petronas Twin Towers.</string>
+
+    <string name="india">India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area,
+        the second-most populous country, and the most populous democracy in the world. New Delhi is the capital of India. </string>
+
+    <string name="japan">Japan is an island country in East Asia. It is situated in the northwest Pacific Ocean,
+        and is bordered on the west by the Sea of Japan, while extending from the Sea of Okhotsk in the north toward the East China Sea,
+        Philippine Sea, and Taiwan in the south.</string>
+
+    <string name="dubai">Dubai is a city and emirate in the United Arab Emirates known for luxury shopping,
+        ultramodern architecture and a lively nightlife scene. Burj Khalifa, an 830m-tall tower, dominates the skyscraper-filled skyline.
+        At its foot lies Dubai Fountain, with jets and lights choreographed to music. On artificial islands just offshore is Atlantis,
+        The Palm, a resort with water and marine-animal parks. </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
