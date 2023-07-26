@@ -30,11 +30,11 @@
                 android:id="@+id/textviewid"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="22sp"
-                android:text="hello"
-                android:textStyle="bold"
+                android:layout_margin="15sp"
                 android:fontFamily="@font/sassooninfantrgregular"
-                />
+                android:text="hello"
+                android:textSize="22sp"
+                android:textStyle="bold" />
 
         </LinearLayout>
 
